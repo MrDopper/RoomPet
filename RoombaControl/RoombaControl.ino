@@ -110,8 +110,14 @@ void setup(){
 }
 
 void loop(){
+  float distance = readDistance();
+  if(distance < 0.0f){
+    delay(300);
+    return;
+  }
   //Zone changes (needs at least 4 indentical to reduce hallucinations)
-  String currentStage = stage(readDistance()); 
+  String currentStage = stage(distance);
+
   if(currentStage == "ERROR"){
     Serial.println("critical ERROR: system required maintained!");
   }
@@ -126,7 +132,6 @@ void loop(){
   }
   if(candidate != lastZone && stable >= 4){
     lastZone = candidate;
-    Serial.print("Zone changed: ");
     Serial.println(lastZone);
   }
 
