@@ -1,21 +1,17 @@
-<<<<<<< HEAD
-ROOMBA model e5
-
-I discovered that the software for wheel sensors of Irobot model e5 having a critical error.
-=======
-# RoomPet 🐾
+<<<<<<< used roomba model e5 
 
 **An interactive AI robot pet built from a Roomba e5, Arduino, and Raspberry Pi.**
 
-> **Open-source integration:** RoomPet uses [dorita980](https://github.com/koalazak/dorita980), an unofficial open-source Node.js library, to communicate with the Roomba e5 over local Wi-Fi. RoomPet's sensor, emotion, and AI behavior logic are built around that connection.
+> **Open-source integration:** RoomPet uses [dorita980](https://github.com/koalazak/dorita980), an unofficial open-source Node.js library, to communicate with the Roomba e5 over local Wi-Fi.
 
-RoomPet responds to a person's distance and attention. An Arduino detects approach, interaction, and departure; Python manages the pet's emotional state and asks an AI to generate short dialogue; and a Wi-Fi bridge sends supported commands to the Roomba e5. The system can run on **macOS, Windows, or Raspberry Pi OS**.
+### About
+RoomPet responds to a person's distance and attention. An Arduino detects approach, interaction, and departure; Python manages the pet's emotional state and asks an AI to generate short dialogue; and a Wi-Fi connection sends commands to the Roomba e5. The system can run on **macOS, Windows, or Raspberry Pi OS**.
 
 ## Hardware demonstration
 
 ![RoomPet prototype: Raspberry Pi, Arduino Uno, ultrasonic sensor, breadboards, and LEDs connected on a desk](assets/hardware-demonstration.jpg)
 
-*Early hardware prototype. This is the electronics setup, not the final mounted robot.*
+*Early hardware prototype. This is the electronics setup! I used whatever I had at home*
 
 ## Components used
 
