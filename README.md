@@ -379,4 +379,3 @@ Reinstall dependencies if you changed Python requirements or `package.json`. Kee
 ---
 
 **RoomPet** is an experimental personal robotics project combining embedded sensing, AI dialogue, and existing Roomba functionality.
->>>>>>> b30c5ac (Add README.md)
