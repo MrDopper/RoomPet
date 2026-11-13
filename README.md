@@ -9,7 +9,7 @@ RoomPet responds to a person's distance and attention. An Arduino detects approa
 
 ## Hardware demonstration
 
-![RoomPet prototype: Raspberry Pi, Arduino Uno, ultrasonic sensor, breadboards, and LEDs connected on a desk](assets/hardware-demonstration.jpg)
+![RoomPet prototype: Raspberry Pi, Arduino Uno, ultrasonic sensor, breadboards, and LEDs connected on a desk](assets/hardware-demonstration.png)
 
 *Early hardware prototype. This is the electronics setup! I used whatever I had at home*
 
